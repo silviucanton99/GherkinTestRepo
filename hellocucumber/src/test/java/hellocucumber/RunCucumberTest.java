@@ -5,6 +5,6 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin="json:results/cucumber/Cucumber.json")
+@CucumberOptions(plugin="com.hpe.alm.octane.OctaneGherkinFormatter:results/cucumber/Cucumber.xml")
 public class RunCucumberTest {
 }
